@@ -1,0 +1,38 @@
+<html>
+    <header>
+        <title>TUGAS JAVASCRIPT 3</title>
+    </header>
+    <body>
+        <script>
+            var tugas=prompt("input nilai tugas = ",0)
+            document.write("nilai tugas = " + tugas + "<br>");
+            var uts=prompt("input nilai uts = ",0)
+            document.write("nilai uts = " + uts + "<br>");
+            var uas=prompt("input nilai uas = ",0)
+            document.write("nilai uas = " + uas + "<br>");
+            var nilaiakhir=(tugas*0.3) + (uts*0.3) + (uas*0.4);
+            document.write("Nilai Akhir = " + nilaiakhir + "<br>");
+            // if (nilaiakhir>=45) {
+            //     document.write("anda lulus <br>");
+            // }else{
+            //     document.write("Anda tidak lulus <br>");
+            // }
+            if(nilaiakhir>=80){
+                document.write("Indeks nilai = A<br>");
+            }else if(nilaiakhir>=70){
+                
+                document.write("Indeks nilai = B<br>");
+            }else if(nilaiakhir>=55){
+                
+                document.write("Indeks nilai = C<br>");
+            }else if(nilaiakhir>=45){
+                
+                document.write("Indeks nilai = D<br>");
+            }else{
+                
+                document.write("Indeks nilai = E<br>");
+            }
+            // console.log("Anda belum lulus");
+        </script>
+    </body>
+</html>
